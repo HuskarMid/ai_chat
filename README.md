@@ -1,4 +1,4 @@
-Чат на React + Express + OpenAI
+Чат на React + Express + OpenAI ML Api
 
 Для запуска проекта:
 
@@ -13,7 +13,7 @@ npm install
 ```bash
 npm start
 ```
-cd
+
 3. Запустить клиент:
 
 ```bash
