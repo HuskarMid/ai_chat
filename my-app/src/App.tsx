@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import styled from 'styled-components';
 import './App.scss';
-import { SendSvgrepoCom } from './icons/index.ts';
+import { SendSvgrepoCom } from './icons/index';
 
 
 const ChatContainer = styled.div`
