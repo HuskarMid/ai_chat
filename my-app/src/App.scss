@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  font-family: 'Work Sans', sans-serif;
+}
+
+.App {
+  background-color: #000;
+  height: 100vh;
+  overflow: hidden;
+}
+
+
+.chat__inputBlock {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.chat__sendButton--svg {
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  top: calc(50% - 15px);
+  left: calc(50% - 15px);
+} 
