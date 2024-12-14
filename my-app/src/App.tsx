@@ -21,6 +21,17 @@ const MessagesContainer = styled.div`
   scroll-behavior: smooth;
   display: flex;
   flex-direction: column;
+  
+  /* Для Firefox */
+  scrollbar-width: none;
+  
+  /* Для Chrome, Safari и других браузеров на основе WebKit */
+  &::-webkit-scrollbar {
+    display: none;
+  }
+  
+  /* Для IE и Edge */
+  -ms-overflow-style: none;
 `;
 
 const InputContainer = styled.div`
