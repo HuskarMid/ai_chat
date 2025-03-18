@@ -5,7 +5,7 @@ import { OpenAI } from "openai";
 const app = express();
 const port = process.env.PORT || 5000;
 const baseURL = "https://api.aimlapi.com/v1";
-const apiKey = "f6a255750c7245d998ace5a3452af9ae";
+const apiKey = "204e8ceda3f04008a5078925cf144e35";
 const systemPrompt = "You are a travel agent. Be descriptive and helpful";
 const DELAY_BETWEEN_REQUESTS = 1000;
 let lastRequestTime = Date.now();
